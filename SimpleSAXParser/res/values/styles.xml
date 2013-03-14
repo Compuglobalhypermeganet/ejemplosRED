@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="@android:style/android:Theme" />
+    <style name="spinner">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">#0000CD</item>
+        <item name="android:text">15dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:maxHeight">35dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+</resources>

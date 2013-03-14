@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleSAXParser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_saxparser">SAXParserActivity</string>
+    <string name="button">Parse XML using SAX</string>
+</resources>

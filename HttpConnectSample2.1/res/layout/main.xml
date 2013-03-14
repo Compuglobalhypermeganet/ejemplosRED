@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+<ImageView 
+	android:id="@+id/imageview01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:tag="@string/imagestring"
+	android:cropToPadding="true" android:contentDescription="@string/imagestring" android:adjustViewBounds="true" android:layout_y="10px" android:layout_x="1px">
+	
+	</ImageView>
+<TextView  
+    android:id="@+id/textview01"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"  
+    android:text="@string/textstring" android:layout_x="1px" android:layout_y="200px"/>
+<Button 
+	android:id="@+id/Button01" 
+	android:text="@string/button01" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" android:layout_x="10px" android:layout_y="325px"></Button>
+<Button android:id="@+id/Button02" 
+	android:layout_height="wrap_content" 
+	android:text="@string/button02" 
+	android:layout_width="wrap_content" android:layout_x="100px" android:layout_y="325px"></Button>
+</AbsoluteLayout>
+
+
+</LinearLayout>
